@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.TransCanadaTrail.TheGreatTrail.activities.OnboardingActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/tabDots"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:layout_height="60dp"
+        app:ci_margin="11dp"
+        app:tabGravity="center"
+        app:ci_animator="@anim/custom_scale"
+        app:ci_drawable="@drawable/tab_selected"
+        app:ci_drawable_unselected="@drawable/tab_default"/>
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontButton
+        android:text="@string/skip_this"
+        android:textColor="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/skip_button"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:fontName="@string/helveticaneue_bold"
+        android:background="@android:color/transparent" />
+</FrameLayout>

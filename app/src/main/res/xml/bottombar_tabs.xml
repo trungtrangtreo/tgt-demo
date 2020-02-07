@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        icon="@drawable/map"
+        id="@+id/tab_map"
+        title="@string/map" />
+    <tab
+        icon="@drawable/measure"
+        id="@+id/tab_measure"
+        title="@string/measure" />
+    <tab
+        icon="@drawable/tracker"
+        id="@+id/tab_tracker"
+        title="@string/tracker" />
+    <tab
+        icon="@drawable/ic_achievement"
+        id="@+id/tab_achievements"
+        title="@string/achievements" />
+    <!--<tab
+        id="@+id/tab_more"
+        icon="@drawable/ic_more"
+        title="More" />-->
+</tabs>

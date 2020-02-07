@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pur_white">
+
+    <TextView
+        android:id="@+id/achievement_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/fragment_achievement_details_title_margin_bottom"
+        android:layout_marginTop="@dimen/fragment_achievement_details_title_margin_top"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Achievement"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fragment_achievement_details_title_size" />
+
+    <ImageView
+        android:id="@+id/achievement_iv"
+        android:layout_width="@dimen/fragment_achievement_details_iv_length"
+        android:layout_height="@dimen/fragment_achievement_details_iv_length"
+        android:layout_below="@id/achievement_title_tv"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/achievement_description_tv"
+        android:layout_width="@dimen/fragment_achievement_details_description_and_date_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/achievement_iv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="@dimen/fragment_achievement_details_description_text_size"
+        android:paddingTop="@dimen/fragment_achievement_details_description_padding"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/earned_date_tv"
+        android:layout_width="@dimen/fragment_achievement_details_description_and_date_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/achievement_description_tv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingTop="@dimen/fragment_achievement_details_description_padding"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fragment_achievement_details_text_size"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="@dimen/fragment_achievement_details_logo_width"
+        android:layout_height="@dimen/fragment_achievement_details_logo_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/keen_logo" />
+
+</RelativeLayout>

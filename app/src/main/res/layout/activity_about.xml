@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ca.TransCanadaTrail.TheGreatTrail.MenuTool.AboutActivity">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/main_activity_tb"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blueGreen"
+        app:popupTheme="@style/AppTheme.NoActionBar"
+         >
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            android:text="@string/about_us_title"
+            android:autoLink="none"
+            android:linksClickable="false"
+            android:layout_gravity="center" />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars = "vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="top|left"
+                    android:linksClickable="true"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="17sp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/about_text"
+                    android:layout_marginBottom="-20dp"
+                    android:id="@+id/aboutTxt" />
+
+                <TextView
+                    android:id="@+id/link1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textSize="17sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/link2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textSize="17sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/link3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textSize="17sp"
+                    android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

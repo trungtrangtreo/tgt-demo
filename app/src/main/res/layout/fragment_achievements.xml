@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pur_white">
+
+    <RelativeLayout
+        android:id="@+id/achievements_title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/fragment_achievement_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_achievement_title"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/fragment_achievement_title_size" />
+
+        <ImageView
+            android:id="@+id/achievement_title_info_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/fragment_achievement_title_tv"
+            android:src="@drawable/ic_information" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/achievements_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/achievements_title_rl"
+        android:background="@color/pur_white"
+        android:layout_above="@+id/keen_logo_iv"/>
+
+
+    <ImageView
+        android:id="@+id/keen_logo_iv"
+        android:layout_width="@dimen/fragment_achievement_logo_width"
+        android:layout_height="@dimen/fragment_achievement_logo_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/keen_logo" />
+
+</RelativeLayout>

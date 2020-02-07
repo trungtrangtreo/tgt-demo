@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide1_background"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/tct_logo_white"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView"
+        android:layout_weight="0.14" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        app:srcCompat="@drawable/yellow_slide1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView2" />
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontTextView
+        android:text="@string/made_by_canada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        app:fontName="@string/helveticaneue_bold"
+        android:textSize="21sp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/stoke"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView3"
+        android:padding="10dp" />
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontTextView
+        android:text="@string/slide1"
+        android:layout_width="285dp"
+        android:layout_height="120dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margintop"
+        app:fontName="@string/helveticaneue"
+
+        android:ellipsize="middle"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.13" />
+
+
+</LinearLayout>

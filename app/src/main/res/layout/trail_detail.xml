@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/mapViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapview1"
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/location_toggle_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="17dp"
+            app:srcCompat="@drawable/ic_my_loc"
+            android:clickable="true"
+            tools:ignore="VectorDrawableCompat"
+            app:backgroundTint="#FFFFFFFF"
+            android:layout_alignBottom="@+id/mapview1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="20dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="388dp"
+        android:layout_height="140dp"
+        android:id="@+id/linearlayout"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/infoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="My Amenity"
+            android:layout_marginLeft="10dp"
+            android:gravity="left" />
+
+        <TextView
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/trail_lengthTxt"
+            android:text="104.2 KM"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.01"/>
+
+    </LinearLayout>
+
+</LinearLayout>

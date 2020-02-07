@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/globalLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:windowSoftInputMode="stateAlwaysHidden">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/mapViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/mapview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    map:cameraTargetLat="56.1304"
+                    map:cameraTargetLng="-106.3468"
+                    map:zoom = "3" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/location_toggle_fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="16dp"
+                    app:srcCompat="@drawable/ic_my_loc"
+                    android:clickable="true"
+                    tools:ignore="VectorDrawableCompat"
+                    app:backgroundTint="#FFFFFFFF"/>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/infoTxt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_map_empty_text_view_height"
+                android:background="@color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/mapMessage"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/fragment_text_size"/>
+
+            <TextView
+                android:id="@+id/segment_info_tv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_map_non_empty_text_view_height"
+                android:background="@color/white"
+                android:gravity="left"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/fragment_map_text_view_segment_info"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:visibility="gone"/>
+
+</FrameLayout>

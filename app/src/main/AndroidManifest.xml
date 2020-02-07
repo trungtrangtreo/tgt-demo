@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ca.TransCanadaTrail.TheGreatTrail">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name="ca.TransCanadaTrail.TheGreatTrail.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!--<meta-data-->
+            <!--android:name="com.google.android.gms.version"-->
+            <!--android:value="12451000" />-->
+        <!--<meta-data-->
+            <!--android:name="com.google.android.gms.version"-->
+            <!--android:value="@integer/google_play_services_version" />-->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDCLTa77vWJ1yhQxLxhEsf75B6_DO9MnVY" />
+        <!--android:value="AIzaSyDUlMafh2BEmohgyY-0qF36MtKfyxiMSRc" />-->
+
+        <receiver
+            android:name="ca.TransCanadaTrail.TheGreatTrail.ActivityTracker.ActivityTrackerBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="ActivityTrackerBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".utils.DownloadedAppBadgeBroadcastReceiver" />
+
+        <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
+        <service
+            android:name="ca.TransCanadaTrail.TheGreatTrail.ActivityTracker.TrackService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <!-- <activity android:name=".ActivityLogFragment1"></activity> -->
+
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.MenuTool.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.MenuTool.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.MenuTool.SettingsActivity2"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.OfflineMap.AreaSelectionActivity"
+            android:label="@string/title_activity_offline"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.OfflineMap.OfflineTrailsActivity"
+            android:label="@string/title_activity_offline_trails"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.OfflineMap.DisplayOfflineTrailsActivity"
+            android:label="@string/title_activity_display_offline_trails"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.activities.OnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen" />
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.MapView.FullImageActivity"
+            android:label="@string/title_activity_full_image"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ca.TransCanadaTrail.TheGreatTrail.MenuTool.KeenActivity"
+            android:label="@string/title_activity_keen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AchievementDetailsActivity"
+            android:label="@string/title_activity_achievement_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="5fbdeaafed47311c905f6ccd85d6531f126b781a" />
+
+        <service
+            android:name=".services.TrackingInfoSavingService"
+            android:exported="false" />
+
+        <service
+            android:name=".services.AchievementsGrantingService"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

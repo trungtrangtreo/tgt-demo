@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map">Carte</string>
+    <string name="measure">Mesure</string>
+    <string name="tracker">Suivi</string>
+    <string name="achievements">Réalisations</string>
+
+    <string name="app_name">Le Grand Sentier</string>
+    <string name="about_keen">À propos de KEEN</string>
+    <string name="about_us_title">À propos de Nous</string>
+    <string name="activity">Activité</string>
+    <string name="activity_log_message">Vous n’avez aucun sentier sauvegardé</string>
+    <string name="activity_log">Log des activités</string>
+    <string name="activity_tracker_name">Nom de l\'activité</string>
+    <string name="address">Adresse</string>
+    <string name="area_selection">Sélection de la région</string>
+    <string name="btnGPS">Mon emplacement</string>
+    <string name="cancel_button">Annuler</string>
+    <string name="delete_activity_title">Supprimer L\'activité</string>
+    <string name="delete_activity_confirmation_message">L\'activité a été supprimée avec succès</string>
+    <string name="delete_activity_confirmation_title"> Supprimer l\'activité </string>
+    <string name="delete_activity_message">Êtes vous sur de vouloir supprimer cette activité ?</string>
+
+
+    <string name="about_text">Cette application est un guide et un planificateur de voyage pour les aventuriers qui désirent explorer le Grand Sentier.\n\n
+                                Le Grand sentier: un symbole national. Le sentier Transcanadien est un organisme qui vise à tracer Le Grand sentier d’un bout à l’autre du pays d’ici 2017 pour le 150e anniversaire du Canada.\n\n
+                                Le Canada recèle le plus long sentier du monde. Le sentier réunit autour d’un projet collectif les individus qui habitent le Canada, ce pays vaste et diversifié. Il suffit de poser les pieds sur Le Grand sentier pour constater que l’horizon est l’élément qui nous unit tous comme Canadiens. Chacun de nous qui emprunte le sentier voit se profiler à l’horizon une infinité de possibilités, de découvertes et d’aventures au fil des 24 000 km qui relient 15 000 communautés d’un océan à l’autre. Le Grand sentier permet de faire le plein de paysages pittoresques. Il met en valeur toute la beauté urbaine, rurale et sauvage du Canada, le long des routes, chemins pédestres et voies navigables.\n\n\n
+
+    </string>
+
+    <string name="terms_conditions">Termes et conditions</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+
+
+    <string name="slide1">"Cette application est un guide et un planificateur de voyage pour les aventuriers qui désirent explorer le Grand Sentier."</string>
+    <string name="slide2">"Sélectionnez les sentiers individuels et découvrez ce qu\'ils recèlent; téléchargez vos photos du Sentier et regardez celles soumises par d\'autres aventuriers."</string>
+    <string name="slide3">"La planification se fait sans effort grâce à l\'outil de recherche facile d\'utilisation. Des raccourcis vers des points d’intérêt à proximité permettent de trouver en un rien de temps une entrée sur le Sentier ou une aire de repos."</string>
+    <string name="slide4">"Voyez comment votre randonnée se profile grâce à l'outil d\'évaluation et calculer la distance que vous devez parcourir. Ayez un aperçu du point en hauteur que vous allez découvrir grâce au profil élargi de l'endroit."</string>
+    <string name="slide5">"Consignez chacune de vos aventures à l\'aide du Moniteur d\'activité Visualisez les kilomètres que vous avez parcouru sur le Sentier et partagez votre aventure sur tous vos réseaux sociaux favoris."</string>
+    <string name="skip_this">"Ignorer »"</string>
+    <string name="get_started">"Commencer"</string>
+    <string name="made_by_canada">"UN LIEN QUI NOUS UNIT"</string>
+    <string name="conquer_trail">"À la conquête du Sentier"</string>
+    <string name="trip_planning">La planification de l\'itinéraire est facilitée</string>
+    <string name="understand_landscape">Comprendre le paysage</string>
+    <string name="track_ur_trek">Faites le suivi de votre randonnée!</string>
+    <string name="upload_trail">Ajouter une photo de ce sentier</string>
+    <string name="upload">Télécharger</string>
+    <string name="uploading">Télécharger &#8230;</string>
+    <string name="trail_type">Type de sentier</string>
+    <string name="environment">Environnement</string>
+    <string name="other_res">"Autres ressources"</string>
+    <string name="directions_to_trail">Directions</string>
+    <string name="distance">DISTANCE</string>
+    <string name="elevation">" ÉLÉVATION "</string>
+    <string name="faq">FAQ</string>
+    <string name="google_place">Google Places</string>
+    <string name="google_place_service">Google Places (catégories)</string>
+    <string name="get_current_place">Obtenir l\'emplacement</string>
+    <string name="about">À propos</string>
+    <string name="activity_tracker_name_message">Veuillez choisir un nom pour votre activité</string>
+    <string name="direction_footer_map">Map data &#169;2017 Google</string>
+    <string name="direction_footer_message">Vous êtes arrivé au sentier</string>
+    <string name="activities">Activités</string>
+    <string name="categories">Catégories</string>
+    <string name="blank_category">"Votre recherche n'a donné aucun résultat."</string>
+    <string name="drop_pin_note">Appuyez précisément sur la piste ou faites un zoom avant</string>
+
+    <!-- SegmentDetailsFragment-->
+    <string name="add_caption">Entrez la légende</string>
+    <string name="donate">Donnez</string>
+    <string name="help">Aide et commentaires</string>
+    <string name="exit">Quitter</string>
+    <string name="offline_maps">Cartes hors ligne</string>
+    <string name="region_name_empty"> Nom de la region ne peut etre vide.</string>
+    <string name="it_make_take_a_while">Ça prend  un certain temps pour télécharger des données cartographiques sur votre appareil, surtout si vous avez sélectionné une grande region.</string>
+    <string name="mapMessage">Appuyer sur le Sentier pour plus d\'informations</string>
+    <string name="measureMessage">Appuyer pour placer le repère</string>
+    <string name="measureMessage2">Placer un autre repère pour mesurer la distance</string>
+    <string name="clear_measurement_title">Effacer la mesure</string>
+    <string name="clear_measurement_message">Êtes vous sur de vouloir effacer la mesure</string>
+    <string name="yes">OUI</string>
+    <string name="no">NON</string>
+    <string name="more">Plus</string>
+    <string name="offline_trails_message">Vous n\'avez pas encore une carte hors ligne.\nAppuyer sur + pour commencer!</string>
+    <string name="saving">Sauvegarde</string>
+    <string name="deleting">Suppression</string>
+    <string name="take_while">Cela peut prendre un peu de temps...</string>
+    <string name="enter_name">Entrer un nom</string>
+    <string name="no_internet">Pas de connexion Internet</string>
+    <string name="error">Erreur</string>
+    <string name="need_online">Vous devez être en ligne pour télécharger des cartes.</string>
+    <string name="must_online_measure">Vous devrez être en ligne pour pour accéder à l\'outils mesure</string>
+    <string name="must_online_trail">Vous devrez être en ligne pour voir le sentier</string>
+    <string name="must_online_search">Vous devrez être en ligne pour accéder à la recherche</string>
+    <string name="total_cache_size">Totale du cache:<br /></string>
+    <string name="ok_button">Ok</string>
+    <string name="phone_number">Numéro de Téléphone</string>
+    <string name="photo">Photo</string>
+    <string name="photo_not_available">Photo non disponible</string>
+    <string name="privacy">Politique de confidentialité</string>
+    <string name="recent_search">Recherches récentes</string>
+    <string name="website">Site Web</string>
+    <string name="trails">Sentiers</string>
+    <string name="trail_services">Services sur le Sentier</string>
+    <string name="search_hint">Rechercher les sentiers et plus</string>
+    <string name="search_title">Recherche</string>
+    <string name="select_area">Sélectionner la région</string>
+    <string name="select_area_message">Centrer et sélectionner la carte afin de la sauvegarder pour une utilisation hors connexion.</string>
+    <string name="select_area_name">Télécharger</string>
+    <string name="rendering">En traitement</string>
+    <string name="beautifing">Beautifier le paysage…</string>
+    <string name="settings">Paramètres</string>
+    <string name="share">Partager</string>
+    <string name="show_result">Voir résultat</string>
+    <string name="start">Démarrer</string>
+    <string name="menu"> Menu </string>
+    <string name="pause"> Pause </string>
+    <string name="save"> Sauvegarder </string>
+    <string name="delete"> Supprimer </string>
+    <string name="terms">Termes et Conditions</string>
+    <string name="time">DURÉE</string>
+    <string name="title_activity_keen">KeenActivity</string>
+
+
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="title_activity_settings2">Précision</string>
+
+
+    <!--About KEEN-->
+    <string name="quality_title">QUALITÉ</string>
+    <string name="quality_text">KEEN Inc. est une marque de chaussures de plein air appartenant à des intérêts indépendants et ayant pour mission de créer de façon responsable des produits originaux et polyvalents, d\'améliorer les vies et d\'inspirer l\'aventure en plein air.</string>
+    <string name="integrity_title">INTÉGRITÉ</string>
+    <string name="integrity_text">Fondée en 2003, KEEN déclenche une révolution dans l\'industrie de la chaussure avec l’introduction de la sandale Newport, lançant le concept de la chaussure hybride sur le marché et établissant de nouvelles normes.</string>
+    <string name="health_title">SANTÉ</string>
+    <string name="health_text">KEEN encourage à vivre des vies satisfaisantes, de défier le statu quo, de faire du bien, de redonner et d\'inspirer les autres.</string>
+    <string name="caring_title">DURABILITÉ</string>
+    <string name="caring_text">KEEN s’efforce de faire vivres ses valeurs par l’entremise de ses produits et ses actions et encourage les communautés et les individus à protéger et préserver les places où nous travaillons et jouons.</string>
+    <string name="keen_site"><font color='#000000'>POUR EN SAVOIR PLUS Veuillez visiter </font> <font color='#FFFFFF'>WWW.KEENFOOTWEAR.COM</font></string>
+
+
+    <string-array name="Settings">
+        <item></item>
+        <item>Limiter les mises à jour au wifi</item>
+        <item>Inclure l\'emplacement avec la photo</item>
+        <item>Précision de géolocalisation de suivi d\'activité</item>
+        <item></item>
+        <item>Version</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="Settings2">
+        <item></item>
+        <item>Meilleur pour la navigation</item>
+        <item>La meilleure précision</item>
+        <item>Dix mètres</item>
+        <item>Cent mètres</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="Settings3">
+        <item></item>
+        <item>La plus précise et l\'option la plus consommatrice de batterie</item>
+        <item>Utilise le niveau le plus élevé de précision</item>
+        <item>Précision à moins de 10 mètres de l\'utilisateur</item>
+        <item>Précision à moins de 100 mètres de l\'utilisateur</item>
+        <item></item>
+    </string-array>
+
+    <!--Achievements Fragment-->
+    <string name="fragment_achievement_title">Réalisations</string>
+
+    <!--Achievement Deatails Fragmenet-->
+    <string name="fragment_achievement_details_title">Réalisations</string>
+
+    <string name="get_started_dialog_title">Commencer!</string>
+    <string name="get_started_dialog_message">Suivez votre randonnée pour gagner des médaillles et devenez un expert de sentier</string>
+    <string name="get_started_dialog_dismiss">Ignorer</string>
+    <string name="get_started_dialog_start">Commencer!</string>
+
+    <string name="badge_download_app_message">Téléchargez</string>
+    <string name="badge_get_on_trail_message">Trouvez Le Grand Sentier</string>
+    <string name="badge_notification_title">Vous avez déverrouillé la médaille</string>
+
+    <string name="badge_find_trail_message">Naviguez</string> 
+    <string name="badge_celebrate_connection_message">Célébrez</string> 
+    <string name="badge_visit_two_province_message">Explorez</string> 
+    <string name="badge_visit_trail_twice_aweek_message">Aventure</string>
+     <string name="badge_time_badge_message">Expérience</string> 
+    <string name="badge_track_10km_message">Traqueur</string> 
+    <string name="badge_track_50km_message">Champion</string> 
+    <string name="badge_change_elevation_message">Élévation</string>  
+
+    <string name="badge_download_app_description">Merci d’avoir téléchargé l’application ! Explorez le Canada sur Le Grand Sentier.</string>
+     <string name="badge_find_trail_description">Sortez sur Le Grand Sentier. Utilisez l’application afin de trouver le sentier près de vous.</string>
+     <string name="badge_celebrate_connection_description">Célébrez la connexion. Joignez-vous à nous le 26 août dans le Parc Major Hill à Ottawa. Le party commence à 11h.</string>
+    <string name="badge_visit_two_province_description">Visiter le Sentier dans deux provinces.</string>
+     <string name="badge_visit_trail_twice_aweek_description">Visitez le Sentier deux fois dans la même semaine. Utilisez le Sentier comme transport en commun ou pour planifier votre weekend.</string>
+    <string name="badge_time_badge_description">Passez deux heures à explorer Le Grand Sentier.</string>
+     <string name="badge_track_10km_description">Restez actif sur Le Grand Sentier, atteignez la borne des 10km.</string>
+     <string name="badge_track_50km_description">Restez actif sur Le Grand Sentier, atteignez la borne des 50km.</string>
+    <string name="badge_change_elevation_description">Changer d’altitude. Appréciez la vue le long du Grand Sentier, atteignez 150 mètres.</string>
+
+    <string name="achievement_earned_date">Vous avez gagné la médaille, le %1$s</string>
+    <string name="achievement_earned_date_format">dd LLLL, yyyy</string>
+
+</resources>

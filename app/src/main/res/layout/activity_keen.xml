@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/keen_background"
+    tools:context="ca.TransCanadaTrail.TheGreatTrail.MenuTool.KeenActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_activity_tb"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blueGreen"
+        android:theme="@style/AppTheme.AppBarOverlay"
+         >
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/about_keen"
+            android:autoLink="none"
+            android:linksClickable="false"
+            android:layout_gravity="center" />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/keen_logo"
+                    android:layout_gravity="center_horizontal"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2" />
+            </LinearLayout>
+
+
+            <!--Quality-->
+            <TextView
+                android:id="@+id/quality_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quality_title"
+                android:textStyle="bold"
+                android:scrollbars = "vertical"
+                android:background="#AAFFDE00"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="3dp" />
+
+            <TextView
+                android:id="@+id/quality_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quality_text"
+                android:textColor="@color/md_black_1000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:scrollbars = "vertical"
+                android:background="#AAF1F4F5"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="5dp" />
+
+            <!--Integrity-->
+            <TextView
+                android:id="@+id/integrity_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/integrity_title"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:scrollbars = "vertical"
+                android:background="#AAFFDE00"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                 android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="3dp" />
+
+            <TextView
+                android:id="@+id/integrity_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/integrity_text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/md_black_1000"
+                android:scrollbars = "vertical"
+                android:background="#AAF1F4F5"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="5dp" />
+
+
+            <!--Health-->
+            <TextView
+                android:id="@+id/health_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/health_title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:scrollbars = "vertical"
+                android:background="#AAFFDE00"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="3dp" />
+
+            <TextView
+                android:id="@+id/health_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/health_text"
+                android:textColor="@color/md_black_1000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:scrollbars = "vertical"
+                android:background="#AAF1F4F5"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="5dp" />
+
+
+            <!--Caring-->
+            <TextView
+                android:id="@+id/caring_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/caring_title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:scrollbars = "vertical"
+                android:background="#AAFFDE00"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="3dp" />
+
+            <TextView
+                android:id="@+id/caring_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/caring_text"
+                android:textStyle="bold"
+                android:textColor="@color/md_black_1000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:scrollbars = "vertical"
+                android:background="#AAF1F4F5"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                android:textSize="17sp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="5dp" />
+
+
+            <!--Keen Site-->
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keen_site"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:scrollbars = "vertical"
+                android:background="#AAFFDE00"
+                android:textAlignment="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="top|left"
+                android:linksClickable="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="90dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="trailServiceArray">
+        <item>"Points d'accès"</item>
+        <item>"Stationnement"</item>
+        <item>"Aires de repos"</item>
+    </array>
+    <array name="googlePlacesServiceArray">
+        <item>Restaurant</item>
+        <item>Camping</item>
+        <item>Café</item>
+        <item>Guichets automatiques</item>
+        <item>Hébergement</item>
+        <item>Boulangerie</item>
+        <item>Bicycletterie</item>
+        <item>Dépanneur</item>
+        <item>Quincaillerie</item>
+        <item>Hôpital</item>
+        <item>Musée</item>
+        <item>Parc</item>
+        <item>Pharmacie</item>
+    </array>
+</resources>

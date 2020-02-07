@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37647D</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#37647D</color>
+    <color name="dialogColor">#34596b</color>
+    <color name="black">#000000</color>
+    <color name="lightGrey">#AAAAAA</color>
+    <color name="blueGreen">#37647D</color>
+    <color name="pur_white">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightLightGrey">#EDEDED</color>
+    <color name="greenStart">#bfd774</color>
+    <color name="greenMid">#a4c639</color>
+    <color name="greenEnd">#738b28</color>
+    <color name="yellow">#FFFC00</color>
+    <color name="darkYellow">#dded1a</color>
+    <color name="greyBottomBar">#eeeeee</color>
+    <color name="plum">#750509</color>
+    <color name="more">#72a088</color>
+    <color name="textGrey">#65818181</color>
+    <color name="dialogGrey">#b7bec3</color>
+    <color name="home_tabs_active_color">#750509</color>
+    <color name="home_tabs_inactive_color">#929292</color>
+
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+
+</resources>

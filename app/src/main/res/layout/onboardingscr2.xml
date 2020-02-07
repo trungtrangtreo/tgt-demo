@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide2_background"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/slide2_screen_cap"
+        android:layout_margin="30dp"
+        android:id="@+id/imageView2"
+        android:layout_weight="0.23" />
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontTextView
+        android:text="@string/conquer_trail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:fontName="@string/helveticaneue_bold"
+        android:textSize="21sp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/stoke"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView3"
+        android:padding="10dp" />
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontTextView
+        android:text="@string/slide2"
+        android:layout_width="290dp"
+        android:layout_height="120dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margintop"
+        android:gravity="center_horizontal"
+        app:fontName="@string/helveticaneue"
+        android:layout_weight="0.44" />
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide4_background"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/slide4_screen_cap"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginBottom="30dp"
+        android:id="@+id/imageView2"
+        android:layout_weight="0.41" />
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontTextView
+        android:text="@string/understand_landscape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        app:fontName="@string/helveticaneue_bold"
+        android:textSize="21sp"
+        android:layout_weight="0.00" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/stoke"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView3"
+        android:padding="10dp" />
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontTextView
+        android:text="@string/slide4"
+        android:layout_width="306dp"
+        android:layout_height="120dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margintop"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        app:fontName="@string/helveticaneue"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.13" />
+
+
+</LinearLayout>

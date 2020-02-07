@@ -1,0 +1,54 @@
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          >
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignBottom="@+id/item_label"
+            android:src="@drawable/ic_map" />
+
+        <TextView
+            android:id="@+id/item_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10sp"
+            android:layout_toRightOf="@+id/image_view"
+            android:text="name"
+            android:textColor="@android:color/black"
+            android:maxLines="2"
+            android:paddingLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25sp"
+        android:layout_below="@+id/item_label"
+        android:textColor="@android:color/black"
+        android:text="January 16, 2017"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:maxLines="1"
+        android:paddingLeft="23dp"/>
+
+</LinearLayout>
+

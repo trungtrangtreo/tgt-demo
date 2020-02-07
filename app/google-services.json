@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "526154411609",
+    "firebase_url": "https://the-great-trail-2018.firebaseio.com",
+    "project_id": "the-great-trail-2018",
+    "storage_bucket": "the-great-trail-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526154411609:android:32360858f79d1670",
+        "android_client_info": {
+          "package_name": "ca.TransCanadaTrail.TheGreatTrail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526154411609-q7vfq8pi8se6prc6ha3idh60ehegbtj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.TransCanadaTrail.TheGreatTrail",
+            "certificate_hash": "549a4b216d5c2567d5eb49793e550cc670b1135a"
+          }
+        },
+        {
+          "client_id": "526154411609-qpb3k3h52jmor9ooi3k91740t8fgmnlr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.TransCanadaTrail.TheGreatTrail",
+            "certificate_hash": "c0d46b04b8ed49d1b7d454835cf40c20fdb2f3d6"
+          }
+        },
+        {
+          "client_id": "526154411609-q714ml6lcsk28e3kgs5vkk411ufn231r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSA2tVALYI3ORuEAA5BzWFL323Ju_A1Hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526154411609-q714ml6lcsk28e3kgs5vkk411ufn231r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

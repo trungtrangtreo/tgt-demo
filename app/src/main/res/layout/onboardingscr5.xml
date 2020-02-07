@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide5_background"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/tct_logo_white"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView"
+        android:layout_weight="0.14" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/screen5_icons"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageView2" />
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontTextView
+        android:text="@string/track_ur_trek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:fontName="@string/helveticaneue_bold"
+        android:textSize="21sp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/stoke"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView3"
+        android:padding="10dp" />
+
+    <ca.TransCanadaTrail.TheGreatTrail.CustomFontTextView
+        android:text="@string/slide5"
+        android:layout_width="285dp"
+        android:layout_height="120dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margintop"
+        app:fontName="@string/helveticaneue"
+        android:layout_weight="0.49" />
+
+
+</LinearLayout>
